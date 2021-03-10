@@ -1,6 +1,6 @@
 #!/bin/bash
 
-result=$(/usr/bin/nvidia-smi -L)
+result=$(/usr/local/bin/nvidia-smi -L)
 first=1
 
 echo "{"
